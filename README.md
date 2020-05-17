@@ -27,9 +27,22 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 1. "export": "next export",
 2. "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
 
+### Create below 2 files in your root
+
+1. env-config.js
+2. next.config.js
+
+* Replace `nextjs-gh-page` with your current repo name in both the above files
+
 ### npm run deploy
 
 Command to deploy and Publish your gh-pages
+
+### Url of the published page would be:
+
+Open [http://localhost:5003](http://localhost:5003)
+
+
 
 ## Learn More
 
