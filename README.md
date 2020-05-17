@@ -42,7 +42,11 @@ Command to deploy and Publish your gh-pages
 
 Open [http://localhost:5003](http://localhost:5003)
 
+### Format of the url
 
+* Reaplce 'github-user-name' and 'github-projet-name'
+
+`https://github-user-name.github.io/github-projet-name/`
 
 ## Learn More
 
