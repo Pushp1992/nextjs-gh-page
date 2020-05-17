@@ -16,20 +16,22 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## Steps to publish your gh-pages
 
-Install below libraries:
+### * Install below libraries:
 
-### npm install rimraf --save-dev
-### npm install gh-pages --save-dev
-### npm install babel-plugin-transform-define --save-dev
+npm install rimraf --save-dev
+npm install gh-pages --save-dev
+npm install babel-plugin-transform-define --save-dev
 
-Add below commands under scripts:
+### * Add below commands under scripts:
 
-1. "export": "next export",
-2. "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
+scripts: {
+    "export": "next export",
+    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
+}
 
-## Command to deploy and Publish your gh-pages
+### npm run deploy
 
-npm run deploy
+Command to deploy and Publish your gh-pages
 
 ## Learn More
 
