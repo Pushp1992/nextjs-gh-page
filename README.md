@@ -24,10 +24,8 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ### * Add below commands under scripts:
 
-scripts: {
-    "export": "next export",
-    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
-}
+1. "export": "next export",
+2. "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
 
 ### npm run deploy
 
