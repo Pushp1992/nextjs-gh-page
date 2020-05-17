@@ -2,17 +2,34 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Install all the dependencies
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## npm install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Running the development server:
+
+## npm run dev
+
+Open [http://localhost:5003](http://localhost:5003) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+## Steps to publish your gh-pages
+
+Install below libraries:
+
+### npm install rimraf --save-dev
+### npm install gh-pages --save-dev
+### npm install babel-plugin-transform-define --save-dev
+
+Add below commands under scripts:
+
+1. "export": "next export",
+2. "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
+
+## Command to deploy and Publish your gh-pages
+
+npm run deploy
 
 ## Learn More
 
