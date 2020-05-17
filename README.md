@@ -18,9 +18,9 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ### * Install below libraries:
 
-npm install rimraf --save-dev
-npm install gh-pages --save-dev
-npm install babel-plugin-transform-define --save-dev
+1. npm install rimraf --save-dev
+2. npm install gh-pages --save-dev
+3. npm install babel-plugin-transform-define --save-dev
 
 ### * Add below commands under scripts:
 
