@@ -12,7 +12,7 @@ module.exports = {
     }
   },
   //assetPrefix: '',
-  assetPrefix: !debug ? '/task-progress-using-stepper/' : '',
+  assetPrefix: !debug ? '/nextjs-gh-page/' : '',
   webpack: (config, { dev }) => {
     // Perform customizations to webpack config
     // console.log('webpack');
