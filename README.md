@@ -40,7 +40,7 @@ Command to deploy and Publish your gh-pages
 
 ### Url of the published page would be:
 
-Open [http://localhost:5003](http://localhost:5003)
+Open [https://pushp1992.github.io/nextjs-gh-page/](https://pushp1992.github.io/nextjs-gh-page/)
 
 ### Format of the url
 
